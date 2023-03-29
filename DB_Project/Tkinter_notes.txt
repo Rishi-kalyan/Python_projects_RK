@@ -1,0 +1,10 @@
+root = tk.Tk() :: it creates the main window for the application using the 'TK' class and assigns it to the variable 'root'.
+button=tk.button(root,text="click me!" command=lambda:print("button clicket))'
+::button' class is used to create the button ,and it takes three parameters'
+"root" it specifies that the button will be added to the main window.
+"text"=click me!" sets the text displayed on the button.
+command=lambda:print(button clicked) ::it species the function to executed when the button is clicked. in this case, 
+the "lambda" function is used to create a one- line function that prints the text"button clicked" to the console.
+"button.pack() :: adds the button widget to the main window using the pack() method.
+"root.mainloop()":: starts the main event loop,which is responsible for handling user input and uploading the GUI. 
+the program will remain in the event loop until the user closes the window or the program is terminated.
