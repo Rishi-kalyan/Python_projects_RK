@@ -1,4 +1,4 @@
-import tkinter
+import tkinter as tk
 root = tk.Tk() :: it creates the main window for the application using the 'TK' class and assigns it to the variable 'root'.
 button=tk.button(root,text="click me!" command=lambda:print("button clicket))'
 ::button' class is used to create the button ,and it takes three parameters'
