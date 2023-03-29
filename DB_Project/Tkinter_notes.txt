@@ -8,4 +8,4 @@ command=lambda:print(button clicked) ::it species the function to executed when 
 the "lambda" function is used to create a one- line function that prints the text"button clicked" to the console.
 "button.pack() :: adds the button widget to the main window using the pack() method.
 "root.mainloop()":: starts the main event loop,which is responsible for handling user input and uploading the GUI. 
-the program will remain in the event loop until the user closes the window or the program is deleted(terminated).
+the program will remain in the event loop until the user closes the window or the program is (terminated).
